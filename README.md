@@ -1,4 +1,7 @@
-https://learn.microsoft.com/ko-kr/dotnet/csharp/
+[Link]
+
+- C# https://learn.microsoft.com/ko-kr/dotnet/csharp/
+- LINQ https://github.com/dotnet/try-samples
 
 1. Make Solution
 dotnet new sln -n "SolutionName"
