@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\csharp\\charp\\charp.csproj": {}
+    "D:\\Projects\\csharp\\charp\\charp.csproj": {}
   },
   "projects": {
-    "D:\\git\\csharp\\charp\\charp.csproj": {
+    "D:\\Projects\\csharp\\charp\\charp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\csharp\\charp\\charp.csproj",
+        "projectUniqueName": "D:\\Projects\\csharp\\charp\\charp.csproj",
         "projectName": "charp",
-        "projectPath": "D:\\git\\csharp\\charp\\charp.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\csharp\\charp\\obj\\",
+        "projectPath": "D:\\Projects\\csharp\\charp\\charp.csproj",
+        "packagesPath": "C:\\Users\\Kim Dong Young\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\csharp\\charp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kim Dong Young\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
