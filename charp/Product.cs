@@ -5,10 +5,10 @@ public class ProductHelper
     public static List<Product> GetProductList()
     {
         return new List<Product>{
-            new Product { ProductName = "A", UnitsInStock = 0, UnitPrice = 3.1d },
-            new Product { ProductName = "B", UnitsInStock = 1, UnitPrice = 3.0d},
-            new Product { ProductName = "C", UnitsInStock = 1, UnitPrice = 3.1d},
-            new Product { ProductName = "D", UnitsInStock = 0, UnitPrice = 3.0d}
+            new Product { ProductName = "A", UnitsInStock = 0, UnitPrice = 3.1d, Category = "Black"},
+            new Product { ProductName = "B", UnitsInStock = 1, UnitPrice = 3.0d, Category = "Black"},
+            new Product { ProductName = "C", UnitsInStock = 1, UnitPrice = 3.1d, Category = "White"},
+            new Product { ProductName = "D", UnitsInStock = 0, UnitPrice = 3.0d, Category = "White"}
         };
     }
 
@@ -27,8 +27,8 @@ public class Product
 {
     public string ProductName = "";
     public int UnitsInStock = 0;
-
     public double UnitPrice = 0d;
+    public string Category = "";
 }
 
 public class Customer
