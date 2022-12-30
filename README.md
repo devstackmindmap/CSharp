@@ -17,3 +17,10 @@ dotnet build
 
 5. Add Project in solution
 dotnet sln "SolutionName" add "ProjectName\ProjectName.csproj
+
+
+# Entity Framework
+
+In Package Management Console
+- Add-Migration InitialCreate
+- Update-Database
