@@ -24,3 +24,5 @@ dotnet sln "SolutionName" add "ProjectName\ProjectName.csproj
 In Package Management Console
 - Add-Migration InitialCreate
 - Update-Database
+- Add-Migration Rating(arbitrary name)
+- Update-Database
