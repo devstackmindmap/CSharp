@@ -1,0 +1,1 @@
+mysql -c "Server=localhost;Port=44557;Database=account;User Id=admin;Password=leapeHxTWGsesRC00lJn;" -l "D:\Projects\devstackmindmap\csharp\csharp\csharp\DB\DBMigrations"
