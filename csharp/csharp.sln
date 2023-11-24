@@ -11,7 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excel", "Excel\Excel.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebEFConcurrency", "WebEFConcurrency\WebEFConcurrency.csproj", "{1B90596D-87D5-413B-B2E2-877515934DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerSeri", "LoggerSeri\LoggerSeri.csproj", "{68B75F39-67B3-4395-9B0F-32D4192DD750}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerSeri", "LoggerSeri\LoggerSeri.csproj", "{68B75F39-67B3-4395-9B0F-32D4192DD750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMovie.Domain", "CleanMovie.Domain\CleanMovie.Domain.csproj", "{B066BF4B-310F-424D-AF79-C78ED5F0C3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMovie.Application", "CleanMovie.Application\CleanMovie.Application.csproj", "{6B89EA3A-CB3F-4873-87DC-35C4AE1ED259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMovie.Infrastructure", "CleanMovie.Infrastructure\CleanMovie.Infrastructure.csproj", "{97D01612-E759-4F54-8978-73ED64DD62A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMovie.API", "CleanMovie.API\CleanMovie.API.csproj", "{7A5221AB-0510-4E32-8C0A-8B847FEEF013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{68B75F39-67B3-4395-9B0F-32D4192DD750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B75F39-67B3-4395-9B0F-32D4192DD750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68B75F39-67B3-4395-9B0F-32D4192DD750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B066BF4B-310F-424D-AF79-C78ED5F0C3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B066BF4B-310F-424D-AF79-C78ED5F0C3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B066BF4B-310F-424D-AF79-C78ED5F0C3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B066BF4B-310F-424D-AF79-C78ED5F0C3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B89EA3A-CB3F-4873-87DC-35C4AE1ED259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B89EA3A-CB3F-4873-87DC-35C4AE1ED259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B89EA3A-CB3F-4873-87DC-35C4AE1ED259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B89EA3A-CB3F-4873-87DC-35C4AE1ED259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D01612-E759-4F54-8978-73ED64DD62A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D01612-E759-4F54-8978-73ED64DD62A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D01612-E759-4F54-8978-73ED64DD62A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D01612-E759-4F54-8978-73ED64DD62A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5221AB-0510-4E32-8C0A-8B847FEEF013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5221AB-0510-4E32-8C0A-8B847FEEF013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5221AB-0510-4E32-8C0A-8B847FEEF013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5221AB-0510-4E32-8C0A-8B847FEEF013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

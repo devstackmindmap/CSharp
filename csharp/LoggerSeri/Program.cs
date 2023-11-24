@@ -49,6 +49,3 @@ var player = new Player();
 player.Attack();
 
 Log.CloseAndFlush();
-
-
-class 
