@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruits.API", "Recruits.API\Recruits.API.csproj", "{938C309F-9412-46C1-A791-A64146203ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recurites.Client", "Recurites.Client\Recurites.Client.csproj", "{06F6C920-8879-4F42-9F34-154A5F2DB23E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{938C309F-9412-46C1-A791-A64146203ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938C309F-9412-46C1-A791-A64146203ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938C309F-9412-46C1-A791-A64146203ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938C309F-9412-46C1-A791-A64146203ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F6C920-8879-4F42-9F34-154A5F2DB23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F6C920-8879-4F42-9F34-154A5F2DB23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F6C920-8879-4F42-9F34-154A5F2DB23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F6C920-8879-4F42-9F34-154A5F2DB23E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B805F6C6-AAB6-4C21-AE42-4B95B1630E41}
+	EndGlobalSection
+EndGlobal
