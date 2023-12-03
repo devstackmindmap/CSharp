@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+    db-ttp:
+        image: mysql:8.2.0
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: leapeHxTWGsesRC00lJn
+            MYSQL_USER: admin
+            MYSQL_PASSWORD: leapeHxTWGsesRC00lJn
+            MYSQL_DATABASE: ttp
+        command:
+            - --character-set-server=utf8mb4
+            - --collation-server=utf8mb4_general_ci
+        ports:
+            - 44559:3306
+        volumes:
+            - ../../../../db-ttp/conf.d:/etc/mysql/conf.d
+            - ../../../../db-ttp/data:/var/lib/mysql
+            - ../../../../db-ttp/initdb.d:/docker-entrypoint-initdb.d    
